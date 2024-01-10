@@ -10,23 +10,18 @@ Recent progress in semantic scene understanding has primarily been enabled by th
 
 
 ### Dataset Information
-## Location
-<div class="row">
-    <div class="column">
-        <img src="assets/imgs/dataset_information/location/loc_im1.png" style="width:45%">
-    </div>
-    <div class="column">
-        <img src="assets/imgs/dataset_information/location/loc_im1.png" style="width:45%">
-    </div>
-</div>
-
-## Collection 
-## Contents
-## Comparison to other datasets
-
-### Examples
+#### Location
+<img src="assets/imgs/dataset_information/location/loc_ims_combined.png" style="width:100%">
 
 
+#### Collection 
+<img src="assets/imgs/dataset_information/collection/col_im_combined.png" style="width:100%">
+
+#### Contents
+<img src="assets/imgs/dataset_information/contents/contents_im_combined.png" style="width:100%">
+
+#### Comparison to other datasets
+<img src="assets/imgs/dataset_information/comparison/comparison_im_captioned.png" style="width:100%">
 
 ### Download
 
