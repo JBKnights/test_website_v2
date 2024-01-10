@@ -26,6 +26,9 @@ Recent progress in semantic scene understanding has primarily been enabled by th
 ### Download
 
 ### GitHub
+ <p>
+    We provide code for loading and visualising our data <a href="https://github.com/csiro-robotics/WildScenes">in our GitHub repository</a> as well as scripts for forming the training and testing splits outlined in our paper alongside other utilities.
+</p>
 
 ### Paper
 <div align="center">
