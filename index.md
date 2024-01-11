@@ -12,16 +12,47 @@ Recent progress in semantic scene understanding has primarily been enabled by th
 ### Dataset Information
 #### Location
 <img src="assets/imgs/dataset_information/location/loc_ims_combined.png" style="width:100%">
-
+The WildScenes dataset is a multi-modal collection
+of traversals within Australian forests, allowing for a
+range of computer vision and robotic applications in
+natural environments. The dataset is divided into five sequences across two forest locations: Venman National
+Park and Karawatha Forest Park, Brisbane, Australia. These
+sequences are both across different physical locations and
+across different times.
 
 #### Collection 
 <img src="assets/imgs/dataset_information/collection/col_im_combined.png" style="width:100%">
 
+Our portable sensor setup includes a Velodyne Puck lidar
+sensor (consisting of 16 beams) attached to a brushless DC
+motor, rotating at a frequency of 0.5 Hz around the z-axis.
+This strategy is utilized to increase the vertical field-of-view
+and the 3D point density - given the Puck’s restricted vertical
+field of view (30°), it is inclined at 45° on the DC motor
+and rotated around an external axis. This setup enables lidar
+scans with a 120° vertical Field of View (FoV), making
+it suitable for comprehensive top-to-bottom mapping of
+features such as trees.
+
+We provide manually annotated semantic segmentations for
+every sampled 2D image in our dataset, dividing the observed
+scene into a collection of different natural-scene classes.  3D labels are produced by projecting labels from multiple 2D viewpoints onto the global lidar point clouds for each traversal, using the LabelCloud pipeline outlined in the above figure.  Our class list is designed for natural environments and
+contains precise separation of vegetation types including,
+for example, tree-foliage (leaves) versus tree-trunk, and the
+distinction between different terrain features such as dirt
+and mud. Further details about our
+class list and 3D projection pipeline can be found in the dataset paper.
+
+
+
+
 #### Contents
 <img src="assets/imgs/dataset_information/contents/contents_im_combined.png" style="width:100%">
+Our dataset consists of over 21km and 300 minutes of continuous lidar traversal, for a total of 9306 annotated images and 12,148 annotated point clouds.  For each traversal we release the raw images and point clouds with their accompanying semantic labels, as well as camera calibration and slam-derived 6-DoF pose for each image and lidar point cloud.  In addition, for each lidar point cloud we relase a histogram file containing the distribution of classes projected from different 2D viewpoints onto each 3D point. 
 
 #### Comparison to other datasets
-<img src="assets/imgs/dataset_information/comparison/comparison_im_captioned.png" style="width:100%">
+<img src="assets/imgs/dataset_information/comparison/comparison_im.png" style="width:100%">
+
 
 ### Download
 
