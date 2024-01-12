@@ -8,6 +8,10 @@
 Recent progress in semantic scene understanding has primarily been enabled by the availability of semantically annotated bi-modal (camera and LiDAR) datasets in urban environments. However such annotated datasets are also needed for natural, unstructured environments to enable semantic perception for important applications including search and rescue, conservation monitoring and agricultural automation. Therefore we introduce Wild-Scenes, a bi-modal dataset including densely annotated semantic annotations in both 2D (images) and 3D (lidar point clouds), alongside 6-DoF ground truth information. We introduce benchmarks on 2D and 3D semantic segmentation and evaluate using a variety of recent deep learning techniques, to demonstrate the challenges in semantic inference in natural environments. Additionally, our dataset also provides a method for accurately projecting 2D labels into 3D, and we also provide a custom split generation algorithm to produce an optimal label distribution for training neural networks on our dataset. Finally, for the first time our dataset provides label distributions for all 3D points, enabling future applications such as label distribution learning.
 
 
+<video controls="" width="800" height="500" muted="" loop="" autoplay="">
+<source src="assets/imgs/dataset_information/videos/label_video_3d.mp4">
+</video>
+
 
 ### Dataset Information
 #### Location
@@ -55,6 +59,8 @@ Our dataset consists of over 21km and 300 minutes of continuous lidar traversal,
 
 
 ### Download
+
+The dataset can be downloaded from <a href="https://www.dropbox.com/scl/fo/s6qk1o8u5mbfx9elxqe2q/h?rlkey=bulapma44y7m60zjk03r7h5th&dl=0">Dropbox</a>.
 
 ### GitHub
  <p>
